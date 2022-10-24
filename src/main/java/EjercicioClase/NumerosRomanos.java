@@ -36,13 +36,21 @@ public class NumerosRomanos {
                
            int numRomano = Integer.parseInt(JOptionPane.showInputDialog(
                    null,"Introduce un número decimal "));
-           
-            
+           String numero1 = "I", numero2 = "II", numero3 = "III", 
+                  numero4 = "IV", numero5 = "V", numero6 = "VI",
+                  numero7 = "VII",numero8 = "VIII", numero9 = "IX",
+                  numero10 = "X"; 
+           if (numRomano == 1){
+               System.out.println(numero1);
+
+           }else{
+               System.out.println(numero2);
+                    
            }
            
        }    
             
              
-        
+       }   
     }
 }
